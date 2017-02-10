@@ -1,0 +1,202 @@
+body {
+	font-family:Ubuntu,sans-serif;
+	font-size:1.2em;
+	overflow:hidden;
+}
+
+h1 {
+	color:#ccc;
+}
+
+h2 {
+	color:#ccc;
+}
+
+h3 {
+	color:#ccc;
+}
+
+h4 {
+	color:#ccc;
+}
+
+h5 {
+	color:#ccc;
+}
+
+h6 {
+	color:#ccc;
+}
+
+small {
+	font-size:0.75em
+}
+
+a {
+	text-decoration:none;
+	color:#34a3d4;
+}
+
+a:hover {
+	color:#666;
+}
+
+img {
+	max-width:100%
+}
+
+table {
+	font-size:.8em;
+	color:#666 !important;
+	background:#eee;
+	width:100%;
+	border-radius:.5em;
+}
+
+table code {
+	background:transparent;
+	padding:0
+}
+
+tr {
+	border-bottom:1px solid #fff;
+}
+
+tr:last-child {
+	border-bottom:none;
+}
+
+th,td {
+	font-size:1em;
+	line-height:1.25em;
+	margin:0;
+	padding:1em;
+	white-space:nowrap;
+}
+
+th {
+	font-weight:bold;
+	text-align:left;
+	text-transform:uppercase;
+	color:#fff;
+	background:#999;
+}
+
+th a {
+	color:#fff;
+}
+
+th:first-child,
+td:first-child {
+	width:50%;
+}
+
+pre {
+	background:#efefef;
+	padding:0.75em;
+	border-radius:0.75em;
+}
+
+ul,p {
+	color:#666;
+	line-height:1.5em;
+}
+
+p code,ul code {
+	padding:.25em .75em;
+	border-radius:.75em;
+	white-space:nowrap
+}
+
+blockquote pre,blockquote code {
+	color:#666;
+	background:#fff;
+}
+
+code {
+	background:#eee;
+}
+
+.center {
+	text-align:center;
+}
+
+.right {
+	text-align:right;
+}
+
+.content {
+	padding:0 20px;
+	max-width:768px;
+	margin:0 auto;
+}
+
+.header {
+	background:url('../images/bg.png');
+}
+
+.header img {
+	padding:5%;
+}
+
+.footer {
+	font-size:0.9em;
+	background:#333;
+}
+
+.footer p {
+	color:#eee;
+	padding:20px;
+	max-width:768px;
+	margin:0 auto;
+}
+
+.footer .stats {
+	font-size:.9em;
+}
+
+@media screen and (max-width:48em) {
+
+	body {
+		font-size:1em;
+	}
+
+}
+
+.fullwidth
+{
+	width: 100%;
+}
+
+.fullwidth img
+{	
+	width: 100%;
+	max-width: 100%;
+}
+
+.taq-img
+{
+	/*transition: all 2s;*/
+
+}
+
+.taq-img-container
+{
+	position: absolute;
+}
+
+.admin-table img
+{
+	max-width: 200px;
+}
+
+.grid-item { width: 200px;margin-bottom: 2px;}
+.grid-item--width2 { width: 400px; margin-bottom: 2px; }
+
+
+.proyeccion-footer
+{
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+}
